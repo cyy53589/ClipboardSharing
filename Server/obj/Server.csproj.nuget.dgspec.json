@@ -1,0 +1,100 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\code\\csharp\\ClipboardSharing\\Server\\Server.csproj": {}
+  },
+  "projects": {
+    "D:\\code\\csharp\\ClipboardSharing\\Lib\\Lib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\code\\csharp\\ClipboardSharing\\Lib\\Lib.csproj",
+        "projectName": "Lib",
+        "projectPath": "D:\\code\\csharp\\ClipboardSharing\\Lib\\Lib.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\code\\csharp\\ClipboardSharing\\Server\\Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\code\\csharp\\ClipboardSharing\\Server\\Server.csproj",
+        "projectName": "Server",
+        "projectPath": "D:\\code\\csharp\\ClipboardSharing\\Server\\Server.csproj",
+        "packagesPath": "C:\\Users\\ChenYuyang\\.nuget\\packages\\",
+        "outputPath": "D:\\code\\csharp\\ClipboardSharing\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ChenYuyang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\code\\csharp\\ClipboardSharing\\Lib\\Lib.csproj": {
+                "projectPath": "D:\\code\\csharp\\ClipboardSharing\\Lib\\Lib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Fleck": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.6.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "WebSocket4Net": {
+              "target": "Package",
+              "version": "[0.15.2, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
