@@ -26,10 +26,10 @@ Due to android [privacy changed in Android 10](https://developer.android.google.
    1. Take your phone click toolbar to scan QRCode shown on windows. This would bind your windows and phone by changing username in PC to be same as your phone.
    2. Click settings menu in PC, it would open config file. Modify config and restart windows client to enable change.
 
-# Call for contributions
+# TODO:
 ## Feature
 1. Ugly UI.
-2. In Android message receiving services sometime may be killed. It would be better if it could use GCM.
+2. In Android, service that receiving message may be killed sometime. It would be better if it could use GCM.
 
 ## Bugs
 1. [Windows] Copy link from Edge cause exception.
