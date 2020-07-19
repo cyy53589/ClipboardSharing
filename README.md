@@ -5,7 +5,7 @@
 ClipboardSharing enables you to copy at device A and paste at device B when both devices connected to network.
 
 ## ***Notice for Android 10 ( or higher) user***
-Due to android [privacy changed in Android 10](https://developer.android.google.cn/about/versions/10/privacy/changes#clipboard-data), Clipboard access are not allowed if app lose its focus. Resulting sending text copy at other app in Android couldn't be sent to other devices. Receiving function in android 10 works fine.
+Due to android [privacy changed in Android 10](https://developer.android.google.cn/about/versions/10/privacy/changes#clipboard-data), Clipboard access are not allowed if app lose its focus. Resulting text copy at other app in Android couldn't be sent to other devices. Still working on this issue.
 
 # How to Build
 
